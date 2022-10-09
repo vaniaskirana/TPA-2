@@ -13,12 +13,12 @@ calculateButton.addEventListener("click", ()=>{
     result.innerText = BMI;
 
     if(BMI < 18.5){
-        result.innerHTML="Your BMI is "+BMI+" which means your weight is Underweight";
+        result.innerHTML="Your BMI is "+BMI+" which means You are Underweight!";
     }else if((BMI > 18.5)&&(BMI<24.9)){
-        result.innerHTML="Your BMI is "+BMI+" which means your weight is Normal";
+        result.innerHTML="Your BMI is "+BMI+" which means You are Normal!";
     }else if((BMI>25)&&(BMI<29.9)){
-        result.innerHTML="Your BMI is "+BMI+" which means your weight is Overweight";
+        result.innerHTML="Your BMI is "+BMI+" which means You are Overweight!";
     }else{
-        result.innerHTML="Your BMI is "+BMI+" which means your weight is Obesity";
+        result.innerHTML="Your BMI is "+BMI+" which means You are Obesity!";
     }
 })
