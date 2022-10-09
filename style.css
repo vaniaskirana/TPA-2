@@ -1,0 +1,43 @@
+
+
+#bmi {
+    padding: 40px 40px;
+    border: inset;
+    border-color: black;
+    display: grid;
+    color: white;
+    margin: 20px 150px; 
+    background: linear-gradient(0deg, rgba(34,193,195,1) 10%, rgba(255,160,213,1) 78%);
+
+}
+
+.result {
+    text-align: center;
+}
+
+input{
+font-size: 20px;
+border-style: none;
+border-color: gray;
+border-radius: 20px;
+padding: 8px;
+}
+
+#bmi h1, p{
+text-align: center;
+color: black;
+
+}
+
+.calculatorbmi button{
+    color: white;
+    font-size: 26px;
+    background-color: pink;
+    padding: 10px;
+}
+.calculatorbmi button:hover{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+
